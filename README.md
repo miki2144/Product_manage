@@ -52,13 +52,6 @@ Every request to protected routes must include a Bearer Token in the Authorizati
 Authorization: Bearer {token}
 ```
 
----
-
-## Testing the API
-Use Postman or cURL to test the API:
-```sh
-curl -X GET "http://localhost:8000/api/products" -H "Authorization: Bearer {token}"
-```
 
 ---
 
